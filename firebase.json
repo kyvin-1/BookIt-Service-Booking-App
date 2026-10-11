@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "servicebookingapp-26206",
+          "appId": "1:567767359710:android:9c0f0fae840d86c28c624f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "servicebookingapp-26206",
+          "configurations": {
+            "android": "1:567767359710:android:9c0f0fae840d86c28c624f",
+            "ios": "1:567767359710:ios:59cd2dc5866b96a48c624f",
+            "web": "1:567767359710:web:db1d06b14e0e02b78c624f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "bookit",
+      "codebase": "bookit",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
